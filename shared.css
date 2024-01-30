@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(210, 46%, 95%);
+}
+
+.card {
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+
+.title {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.card-heading {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #000000;
+    line-height: 1.5;
+    opacity: 1;
+    margin-bottom: 10px;
+}
